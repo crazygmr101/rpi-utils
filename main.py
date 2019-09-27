@@ -6,7 +6,7 @@ while True:
     print("2 - NOAA Weather Stream")
     print("0 - Quit")
     var = input(">")
-    if var == 0:
+    if var == "0":
         break
-    if var == 1:
+    if var == "1":
         weather.main()
